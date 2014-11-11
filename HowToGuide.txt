@@ -1,0 +1,38 @@
+How to Use Google Maps’ JavaScript API Geocode Service
+
+What is it?
+In this how to guide, we will take a look at Googles geocode service.  This service allows you to geocode an address. Geocoding is the process of taking an address and converting it into latitude and longitude coordinates.  Often, a developer will need to geocode when working with a Google map. The developer may have addresses that need to be represented on the map. This service can come in handy when a given company wants a web user to easily find their store. A user selects a particular store and the web application displays the location on a google map with a marker. I have designed a web application that puts this idea into motion.
+
+Let’s look at an example.
+In my web application, I have a dummy company called Equips All Recreational. It has stores only in Oregon. Through the use of a “live” search feature, you can select a city address that will be displayed on a Google map. Here is the link to the example: http://people.oregonstate.edu/~simpsosh/  
+To see how this is used in the example, you will first want to click on the “Click to search for store locations” link at the top center of the page. Within the search input, start typing an address. The city matches will be dynamically placed into a table as you type. Select a city and you will be taken to a page that has a Google map displayed. Above the map, you will see that your selection is in an html input. Click “Find Store” and you will see a marker placed at that address on the map.
+
+How does it work? 
+
+The first thing you need is a map. Below is the code from the above example that displayed the map.
+ 
+1.	Create a geocoder object.
+2.	Create a LatLng object that has passed the longitude and latitude coordinates for Bend Oregon.
+3.	Create variables for the Map class constructor. A variable that determines how zoomed in in/out the map will be when the page loads. A variable that determines where to center the map view.
+4.	Create a Map inside an html element that is zoomed in by 8 and centered on Bend Oregon.
+
+Remember to initialize the map -
+ 
+There is a lot that can be done with this map, but for the purposes of this geocode how to guide, I have only implemented a basic map. Remember to link to the Map API -  
+ 
+Now that we have a map to work with, we can start geocoding addresses and place their corresponding positions onto the map. The Geocode Class has one method
+geocode(request:GeocoderRequest, callback:function(Array.<GeocoderResult>, GeocoderStatus))
+With the geocode method, we will make a request by entering the desired address. Then we can handle the results with the callback function. Here is the code from the above example -    
+1.	Store the desired address into a variable. 
+2.	Call the geocoder’s geocode method. Pass in the desired address. Create an anonymous function to handle the request results.
+3.	Check status of the geocode. Returns true if able to geocode the address that was given.
+4.	Center the map to the longitude and coordinates that were returned. 
+5.	Set the marker onto the map. 
+Now that the map has been initialized and the codeaddress function is set up, we can take the results and mark them on the map. In my example, I use the “Find Store” button to call the codeAddress function. This allows the user to type in another addresses if they wanted to find another store to this company that does not exist. There nothing stopping you though from putting the marker directly on the map when the page is loaded.
+That’s it?
+Yes and no. Yes, in the sense that that’s it for this how to guide, but there is also so much more that you can do with the geocode results through the Google maps API.  Google maps API allows you to do everything from animating the map markers that cause them to bounce to having graphical overlays on your map.
+One last thing. I did not cover how to reverse geocode which is exactly what you would think it is and pretty much works the same way, except now we are taking coordinates and turning them into readable addresses.  Here is a link to the API - https://developers.google.com/maps/documentation/javascript/geocoding  
+If you are interested in taking a look at the complete example code, you can find it here – 
+https://github.com/ShelbySimpson/WebDev494
+
+
