@@ -1,4 +1,4 @@
 WebDev494
 =========
-The puropse of this web application was to demostrate the use of AJAX,PHP,mySQL,XML,HTML,CSS and
-geocoding using the Google Maps JavaScript API v3 geocode service.
+This a web application that demostrates the use of AJAX,PHP,mySQL,XML,HTML and CSS.
+This application also demostrates the use of geocoding by using the Google Maps JavaScript API v3 geocode service.
