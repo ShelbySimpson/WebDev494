@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <mainStatement1><![CDATA[
+        Look no more, you have found the capital of awesome.<br />
+        This store will change your life. We have everything<br />
+        from making your golfing more compfy with our new<br />
+        couches to making your camping trip perfect with<br />
+        our new oak tables. Never again will you be <br />
+        without what you need. We thought of everything<br />
+        and spared nothing. Come on in and check us<br />
+        out!!!]]>
+    </mainStatement1>
+
+
+    <mainStatement2><![CDATA[
+        We strive for perfection. If you are not happy with our<br />
+        services we will give you a 50 cent gift certificate.<br />
+        with that said you will leave this store in such a state of<br />
+        bliss that your grandchildren will feel it. Speaking of which<br />
+        we have very loud toys for you so they can bring them <br />
+        home to their mom and dad.That is after all the best part<br />
+        about being a grandparent.<br />
+]]>
+    </mainStatement2>
+
+
+    <mainStatement3><![CDATA[
+        Look no more, you have found the capital of awesome.<br />
+        This store wildfsl change your life. We have everything<br />
+        from making your golfing more compfy with our new<br />
+        couches to making fsadyour camping trip perfect with<br />
+        our new oak tables. We thought of everything<br />
+        and spared nothiasfdng, come on in and check us<br />
+        out!!!]]>
+    </mainStatement3>
+
+
+
+    <list>
+        <listName>My List</listName>
+        <item1>Books on how to survive off of ants and cactus juice!</item1>
+        <item1>Books on how to become one with mother nature!</item1>
+        <item1>Books on how to speak Animalense!</item1>
+        <item1>Books on how to find tarpits!</item1>
+        <item1>Books on how to find Bigfoot!</item1>
+        <item1>Books for everything your heart desires!!!</item1>
+    </list>
+
+    <list>
+        <listName>My List</listName>
+        <item2>Books on mastering the belly flop!</item2>
+        <item2>Books on how to find Nemo!</item2>
+        <item2>Books on how to use a boomerang!</item2>
+        <item2>Books on where you need to find our books</item2>
+        <item2>Books on how to tell a campfire story!</item2>
+        <item2>Books for everything your mind desires!!!</item2>
+    </list>
+
+    <list>
+        <listName>My List</listName>
+        <item3>Books on how to put an Ikea table together!</item3>
+        <item3>Books on how to keep your car out of the lake!</item3>
+        <item3>Books on how to master the stair master!</item3>
+        <item3>Books on how to swim while reading!</item3>
+        <item3>Books on how to read!</item3>
+        <item3>Books for everything your body desires!!!</item3>
+    </list>
+
+    <image1><![CDATA[<img src="images/EquipAll_Books3.jpg" alt="Your everything store"/>]]></image1>
+    <image2><![CDATA[<img src="images/EquipAll_Books.jpg" alt="Your everything store"/>]]></image2>
+    <image3><![CDATA[<img src="images/EquipAll_Books2.jpg" alt="Your everything store"/>]]></image3>
+
+</root>
